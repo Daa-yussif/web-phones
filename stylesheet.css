@@ -183,10 +183,29 @@ width: 400px;
 /* Responsive design for tablets and mobile devices */
 @media (max-width: 768px) {
   .iphone:hover {
-    transform: none;
-    transition: none;
-    opacity: 1;
-    z-index: auto;
+    transform: none !important;
+    transition: none !important;
+    opacity: 1 !important;
+    z-index: auto !important;
+  }
+  .iphone {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 100vw !important;
+    box-shadow: none !important;
+    display: block;
+    margin: 0 auto 16px auto;
+    object-fit: contain;
+  }
+  .cover,
+  .paylogo,
+  .whatsapp {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 100vw !important;
+    display: block;
+    margin: 0 auto 16px auto;
+    object-fit: contain;
   }
   .nav1 {
     position: fixed;
