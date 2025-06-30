@@ -182,6 +182,12 @@ width: 400px;
 
 /* Responsive design for tablets and mobile devices */
 @media (max-width: 768px) {
+  .iphone:hover {
+    transform: none;
+    transition: none;
+    opacity: 1;
+    z-index: auto;
+  }
   .nav1 {
     position: fixed;
     top: 0;
